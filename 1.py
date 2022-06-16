@@ -36,5 +36,5 @@ def login():
 @app.errorhandler(404)
 def pageNotFount(error):
     return render_template('page404.html', title='Страница не найдена', menu=menu), 404
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(debug=True)
